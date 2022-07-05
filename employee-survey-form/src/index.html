@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+  <head meta charset="UTF-8">
+    <title>
+      SURVEY FORM
+    </title>
+
+  
+  </head>
+  <body>
+    <header> 
+      <h1 >Employee Survey Form</h1>
+    </header>
+    <section>
+      <form method="get" >
+        <label>Name: <input class="name" type="text" placeholder="Enter Your Full Name"></label>
+        <br><br>
+        <label>Department: <input class="dept" placeholder="Enter Your Department"></label>
+        <br><br>
+        <label>Describe yourself in brief: </label>
+        <textarea class="describe" rows="4" cols="30"></textarea>
+        <br><br>
+        <label>Do you exercise:<input type="radio" name="YesNo">Yes
+          <input type="radio" name="YesNo">No</label>
+        <br><br>
+        <label>
+          What's your favorite topic?
+          <br><br>
+          <input type="checkbox" name="history">History
+          <input type="checkbox" name="politics">Politics
+          <input type="checkbox" name="tech">Technology
+          <input type="checkbox" name="literature">Literature
+        </label><br><br>
+        <label>
+          Which movie genre you like?
+          <br><br>
+          <input list="genre">
+          <datalist id="genre">
+            <option value="COMEDY"></option>
+              <option value="ACTION"></option>
+              <option value="SCI-FI"></option> 
+              <option value="HORROR"></option>
+           </datalist>
+        </label>
+        <br><br>
+        <button name="submit">SUBMIT FORM</button>
+      </form> 
+    </section>
+   
+      
+  </body>
+</html>
